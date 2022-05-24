@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "main": "dist/ts-lib-starter.umd.js",
-  "module": "dist/ts-lib-starter.es5.js",
-  "typings": "dist/types/ts-lib-starter.d.ts",
+  "main": "dist/ts-rollup-starter.umd.js",
+  "module": "dist/ts-rollup-starter.es5.js",
+  "typings": "dist/types/ts-rollup-starter.d.ts",
   "files": [
     "dist"
   ],
