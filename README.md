@@ -7,6 +7,8 @@ Based on [TypeScript library starter](https://github.com/alexjoverm/typescript-l
 ```shell
 git clone https://github.com/zhaohuanyuu/ts-lib-starter YOURFOLDERNAME
 cd YOURFOLDERNAME
+```
+
 ```shell
 # watch build
 $ npm start
