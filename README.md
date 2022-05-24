@@ -5,8 +5,6 @@ Based on [TypeScript library starter](https://github.com/alexjoverm/typescript-l
 ### Quick Start
 
 ```shell
-
-```
 git clone https://github.com/zhaohuanyuu/ts-lib-starter YOURFOLDERNAME
 cd YOURFOLDERNAME
 ```shell
