@@ -4,7 +4,6 @@ const webpack = require('webpack')
 
 module.exports = {
   mode: 'development',
-
   /**
    * 我们会在 server 目录下建多个子目录
    * 我们会把不同章节的 demo 放到不同的子目录中
@@ -31,7 +30,6 @@ module.exports = {
     filename: '[name].js',
     publicPath: '/__build__/'
   },
-
   module: {
     rules: [
       {
@@ -62,11 +60,13 @@ module.exports = {
       }
     ]
   },
-
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
   },
-
+  infrastructureLogging: {
+    colors: true,
+    level: 'verbose',
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin()

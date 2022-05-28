@@ -24,5 +24,5 @@ app.use(express.static(path.resolve(__dirname, '../dist')))
 const port = 8080;
 
 app.listen(port, () => {
-  console.log(`Server listening on http://localhost:${port}, Ctrl+C to stop`)
+  console.log(`Server listening on http://localhost:${port}`)
 })

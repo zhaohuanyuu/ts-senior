@@ -7,13 +7,13 @@ import typescript from 'rollup-plugin-typescript2'
 
 const pkg = require('./package.json')
 
-const libraryName = 'ts-rollup-starter'
+const libraryName = 'Index'
 
 export default {
   input: `src/${libraryName}.ts`,
   output: [
-    { file: pkg.main, name: camelCase(libraryName), format: 'umd', sourcemap: true },
     { file: pkg.module, format: 'es', sourcemap: true },
+    { file: pkg.main, name: camelCase(libraryName), format: 'umd', sourcemap: true },
   ],
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
   external: [],
@@ -34,5 +34,5 @@ export default {
 
     // Resolve source maps to the original source
     sourceMaps()
-  ],
+  ]
 }

@@ -8,6 +8,7 @@
     "sourceMap": true,
     "declaration": true,
     "esModuleInterop": true,
+    "preserveSymlinks": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
