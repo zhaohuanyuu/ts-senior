@@ -16,4 +16,5 @@
 
 import Car from './Vechiles/Car'
 const pld = new Car('普拉多', '京A123', 3, 50000, '普拉多巡洋舰')
+
 console.log(pld.calculateRent())
