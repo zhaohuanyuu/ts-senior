@@ -12,6 +12,7 @@ class LocalStorage {
     //   localstorage = new LocalStorage()
     // }
     //
+
     // return localstorage
 
     if (!this.localstorage) {
