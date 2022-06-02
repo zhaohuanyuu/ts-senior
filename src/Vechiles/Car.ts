@@ -9,7 +9,8 @@ class Car extends Vechile {
     this.type = type
   }
 
-  public calculateRent() {
+  public calculateRent(info: unknown[]) {
+    super.calculateRent(['xxx'])
     return this.days * this.getPriceByType()
   }
 

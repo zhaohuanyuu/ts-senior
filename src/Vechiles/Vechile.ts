@@ -18,7 +18,7 @@ class Vechile {
   }
 
   // 计算租赁车的价格 ( calculateRent)
-  public calculateRent() {
+  public calculateRent(info: any[]) {
     console.log("calculateRent来自Vechile=>this.brand:", this.brand)
     console.log(this.brand + " 车牌号为:" + this.vechileNo + "开始被租");
 
