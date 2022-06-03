@@ -2,19 +2,28 @@
 // import "core-js/fn/array.find"
 // ...
 
-// import order from './Order'
-// console.log(order);
-
-// import ArrayList from './ArrayList'
+// import ArrayList from './1-basic/ArrayList'
 // console.log(ArrayList)
 
-// import LocalStorage from './Class-examples/LocalStorage'
+// import order from './2-Class-examples/Order'
+// console.log(order);
+
+// import LocalStorage from './2-Class-examples/LocalStorage'
 // console.log(LocalStorage.getInstance())
 
-// import Car from './Vechiles/Vechile'
+// import Car from './3-Vechiles/Vechile'
 // console.log(Car)
 
-import Car from './Vechiles/Car'
-const pld = new Car('普拉多', '京A123', 3, 50000, '普拉多巡洋舰')
+// import Car from './3-Vechiles/Car'
+// const pld = new Car('普拉多', '京A123', 3, 50000, '普拉多巡洋舰')
+// console.log(pld.calculateRent(['xxx']))
 
-console.log(pld.calculateRent(['xxx']))
+import { People, Stu } from './4-assertion/part1/extend'
+
+const people = new People()
+// const result = people as Stu // 类型断言
+const result = <Stu>people // 类型转换
+result.study()
+
+const stu = new Stu('wangwu', 22, 'bj', '123')
+

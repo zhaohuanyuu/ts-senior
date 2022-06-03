@@ -10,6 +10,7 @@ class Car extends Vechile {
   }
 
   public calculateRent(info: unknown[]) {
+    // this.safeShow()
     super.calculateRent(['xxx'])
     return this.days * this.getPriceByType()
   }
