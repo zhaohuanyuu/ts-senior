@@ -18,12 +18,19 @@
 // const pld = new Car('普拉多', '京A123', 3, 50000, '普拉多巡洋舰')
 // console.log(pld.calculateRent(['xxx']))
 
-import { People, Stu } from './4-assertion/part1/extend'
-
-const people = new People()
+// import { People, Stu } from './4-assertion/part1/extend'
+// const people = new People()
 // const result = people as Stu // 类型断言
-const result = <Stu>people // 类型转换
-result.study()
+// const result = <Stu>people // 类型转换
+// result.study()
+// const stu = new Stu('wangwu', 22, 'bj', '123')
 
-const stu = new Stu('wangwu', 22, 'bj', '123')
+import { People, Stu } from './4-assertion/part2/convert'
+
+const people = new People('wangnwu', 23, 'beijing')
+const stuConvert = people as Stu
+
+const stu = new Stu('zhangsan', 23, 'hebei')
+const peopleCpmvert = stu as People
+
 
