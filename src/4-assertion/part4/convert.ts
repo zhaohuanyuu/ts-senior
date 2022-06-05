@@ -1,16 +1,14 @@
 
-class People {
-  constructor(
-    public username: string,
-    public age: number,
-    public address: string
-  ) {
-
-  }
+interface People{
+  username: string,
+  age: number,
+  address: string
+  phone: string
+  study(): void
 }
 
 class Stu{
-  public username!: string
+  // public username!: string
   public age!: number;
   public address!: string
   public phone!: string
