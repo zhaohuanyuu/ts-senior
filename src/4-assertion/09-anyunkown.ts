@@ -1,5 +1,6 @@
 let symid = Symbol("objid")
 let obj = { [symid]: 101, username: "wangwu", age: 23 }
+// @ts-ignore
 let username = obj["username"]
 //let objid=obj[symid]//类型“symbol”不能作为索引类型使用
 // 解决:

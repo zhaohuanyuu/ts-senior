@@ -10,6 +10,7 @@
 // [ '海口海淀岛四东路3号', '133123333', '一路同行,//一起飞', 23, 'df' ]
 
 // 元组标签
+// @ts-ignore
 let [username, age, ...rest]: [name_: string, age_: number, ...rest: any[]] = ["wangwu", 23,
   "海口海淀岛四东路3号", "133123333", "一路同行,一起飞", 23, "df"]
 console.log("username:", username)//wangwu
